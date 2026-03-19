@@ -24,7 +24,7 @@ int sort(int arr[],int size)
 
 }
 
-
+//Ubuntu995添加的代码
 
 
 int main()
