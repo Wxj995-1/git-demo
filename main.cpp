@@ -9,7 +9,8 @@ int sort(int arr[],int size)
 	{
 		for(int j = 0;j<size-1-i;j++)
 		{
-			if(arr[j] > arr[j+1])
+			//Wxj996 修改排序算法 从大到小的排序
+			if(arr[j] < arr[j+1])
 			{
 				tmp = arr[j];
 				arr[j] = arr[j+1];
